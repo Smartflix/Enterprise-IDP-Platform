@@ -17,3 +17,7 @@ resources:
   limits:
     cpu: 300m
     memory: 256Mi
+
+ingress:
+  enabled: true
+  host: payments.127.0.0.1.nip.io
