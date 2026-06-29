@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: registry:5000/payments-api
   tag: dev
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 
 service:
   type: ClusterIP
