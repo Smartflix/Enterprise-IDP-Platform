@@ -177,3 +177,7 @@ The plan is to introduce:
 
 These additions will transform the platform from a deployment solution into a fully observable Internal Developer Platform capable of supporting production-style operations.
 
+Stage 1 marked complete
+New architecture image
+Screenshot of Argo CD
+Screenshot of Payments API

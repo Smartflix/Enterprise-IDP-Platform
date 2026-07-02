@@ -1,0 +1,23 @@
+crds:
+  enabled: false
+
+grafana:
+  enabled: true
+  adminPassword: admin123
+  service:
+    type: ClusterIP
+
+prometheus:
+  enabled: true
+  prometheusSpec:
+    replicas: 1
+    retention: 10d
+    serviceMonitorSelectorNilUsesHelmValues: false
+    podMonitorSelectorNilUsesHelmValues: false
+    ruleSelectorNilUsesHelmValues: false
+    scrapeConfigSelectorNilUsesHelmValues: false
+
+alertmanager:
+  enabled: true
+  alertmanagerSpec:
+    replicas: 1
